@@ -10,3 +10,4 @@ cv_pdf: /assets/pdf/hoffman_cv_2026.pdf # you can also use external links here
 toc:
   sidebar: left
 ---
+

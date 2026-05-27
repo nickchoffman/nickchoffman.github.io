@@ -37,3 +37,67 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+.publications {
+  .title {
+    margin-top: 1.5rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .coauthors {
+    color: var(--global-text-color);
+    font-style: italic;
+    margin-bottom: 0.25rem;
+  }
+
+  .note {
+    margin-bottom: 0.5rem;
+  }
+
+  .presentations {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+
+    ul {
+      margin-top: 0.25rem;
+      padding-left: 1.25rem;
+    }
+  }
+
+  .abstract-toggle {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+
+    .btn-abstract {
+      background: none;
+      border: 1px solid var(--global-divider-color);
+      padding: 0.2rem 0.6rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+      color: var(--global-text-color);
+
+      &:hover {
+        border-color: var(--global-theme-color);
+        color: var(--global-theme-color);
+      }
+    }
+
+    .abstract-box {
+      margin-top: 0.5rem;
+      padding: 0.75rem 1rem;
+      background-color: var(--global-card-bg-color);
+      border-left: 3px solid var(--global-theme-color);
+      font-size: 0.95rem;
+    }
+  }
+}
