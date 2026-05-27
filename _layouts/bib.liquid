@@ -26,7 +26,8 @@
           {% else %}
             {% assign pdf_url = entry.pdf | prepend: '/assets/pdf/' | relative_url %}
           {% endif %}
-          <a class="btn-link" href="{{ pdf_url }}" target="_blank" rel="noopener">Working Paper</a>
+          {% comment %} <a class="btn-link" href="{{ pdf_url }}" target="_blank" rel="noopener">Working Paper</a> {% endcomment %}
+          <a class="btn-link" href="{{ pdf_url }}" target="_blank" rel="noopener">PDF</a>
         {% endif %}
 
         {% if entry.slides %}
