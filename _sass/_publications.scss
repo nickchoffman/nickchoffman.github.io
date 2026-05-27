@@ -31,6 +31,20 @@
     text-align: right;
   }
 
+  h2.category {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    // Remove top margin on the first category so it sits flush with the page
+    &:first-of-type {
+      margin-top: 1rem;
+    }
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
