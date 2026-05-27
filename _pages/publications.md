@@ -27,6 +27,4 @@ nav_order: 2
 
 </div>
 
-{% bibliography -f papers %}
-
 </div>
