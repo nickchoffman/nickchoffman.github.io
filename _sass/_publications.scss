@@ -110,6 +110,16 @@
         }
       }
 
+      .presentations {
+        margin-top: 0.5rem;
+        margin-bottom: 0.25rem;
+        font-size: 0.9rem;
+
+        + .presentations {
+          margin-top: 0.25rem;
+        }
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -219,6 +229,7 @@
       border-color: var(--global-highlight-color);
     }
   }
+
 }
 
 .citation,

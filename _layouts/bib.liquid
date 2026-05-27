@@ -61,25 +61,15 @@
     {% comment %} {# Presentations list #} {% endcomment %}
     {% if entry.conferences %}
       <div class="presentations">
-        <strong>Conference Presentations:</strong>
-        <ul>
-          {% assign conference_list = entry.conferences | split: ';' %}
-          {% for c in conference_list %}
-            <li>{{ c | strip }}</li>
-          {% endfor %}
-        </ul>
+        {% comment %} <strong>Conference Presentations:</strong> {{ entry.conferences }} {% endcomment %}
+        <strong>Conference Presentations:</strong> <em>{{ entry.conferences }}</em>
       </div>
     {% endif %}
 
     {% if entry.seminars %}
       <div class="presentations">
-        <strong>Seminar Presentations:</strong>
-        <ul>
-          {% assign seminar_list = entry.seminars | split: ';' %}
-          {% for s in seminar_list %}
-            <li>{{ s | strip }}</li>
-          {% endfor %}
-        </ul>
+        {% comment %} <strong>Seminar Presentations:</strong> {{ entry.seminars }} {% endcomment %}
+        <strong>Seminar Presentations:</strong> <em>{{ entry.seminars }}</em>
       </div>
     {% endif %}
 
