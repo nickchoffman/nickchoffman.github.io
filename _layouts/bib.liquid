@@ -2,18 +2,7 @@
   <div class="col-sm-12">
 
     {% comment %} {# Title: linked to PDF if pdf field exists, otherwise plain #} {% endcomment %}
-    {% if entry.pdf %}
-      {% if entry.pdf contains '://' %}
-        {% assign pdf_url = entry.pdf %}
-      {% else %}
-        {% assign pdf_url = entry.pdf | prepend: '/assets/pdf/' | relative_url %}
-      {% endif %}
-      <h4 class="title">
-        <a href="{{ pdf_url }}" target="_blank" rel="noopener">{{ entry.title }}</a>
-      </h4>
-    {% else %}
-      <h4 class="title">{{ entry.title }}</h4>
-    {% endif %}
+    <h4 class="title">{{ entry.title }}</h4>
 
     {% comment %} {# Coauthors: only show if there's more than one author #} {% endcomment %}
     {% if entry.author_array.size > 1 %}
@@ -26,6 +15,40 @@
             {{ author_full }}{% unless forloop.last %}, {% endunless %}
           {% endunless %}
         {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if entry.pdf or entry.slides or entry.published or entry.code or entry.nber %}
+      <div class="paper-links">
+        {% if entry.pdf %}
+          {% if entry.pdf contains '://' %}
+            {% assign pdf_url = entry.pdf %}
+          {% else %}
+            {% assign pdf_url = entry.pdf | prepend: '/assets/pdf/' | relative_url %}
+          {% endif %}
+          <a class="btn-link" href="{{ pdf_url }}" target="_blank" rel="noopener">Working Paper</a>
+        {% endif %}
+
+        {% if entry.slides %}
+          {% if entry.slides contains '://' %}
+            {% assign slides_url = entry.slides %}
+          {% else %}
+            {% assign slides_url = entry.slides | prepend: '/assets/pdf/' | relative_url %}
+          {% endif %}
+          <a class="btn-link" href="{{ slides_url }}" target="_blank" rel="noopener">Slides</a>
+        {% endif %}
+
+        {% if entry.published %}
+          <a class="btn-link" href="{{ entry.published }}" target="_blank" rel="noopener">Published Version</a>
+        {% endif %}
+
+        {% if entry.nber %}
+          <a class="btn-link" href="{{ entry.nber }}" target="_blank" rel="noopener">NBER</a>
+        {% endif %}
+
+        {% if entry.code %}
+          <a class="btn-link" href="{{ entry.code }}" target="_blank" rel="noopener">Code</a>
+        {% endif %}
       </div>
     {% endif %}
 
