@@ -63,7 +63,7 @@
       <div class="presentations">
         {% comment %} <strong>Conference Presentations:</strong> {{ entry.conferences }} {% endcomment %}
         {% comment %} <strong>Conference Presentations:</strong> <em>{{ entry.conferences }}</em> {% endcomment %}
-         <strong>Conference Presentations:</strong> {{ entry.conferences | replace: ';', ' – ' }}
+         <strong>Conference Presentations:</strong> <em>{{ entry.conferences | replace: ';', ' • ' }}</em>
       </div>
     {% endif %}
 
@@ -71,7 +71,7 @@
       <div class="presentations">
         {% comment %} <strong>Seminar Presentations:</strong> {{ entry.seminars }} {% endcomment %}
         {% comment %} <strong>Seminar Presentations:</strong> <em>{{ entry.seminars }}</em> {% endcomment %}
-         <strong>Seminar Presentations:</strong> {{ entry.seminars | replace: ';', ' – ' }}
+         <strong>Seminar Presentations:</strong> <em>{{ entry.seminars | replace: ';', ' • ' }}</em>
       </div>
     {% endif %}
 
