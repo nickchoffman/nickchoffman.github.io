@@ -59,7 +59,7 @@ nav_order: 3
     </div>
 
   </div>
-k
+
   <div class="col-md-4">
     <img src="{{ '/assets/img/mwm_spring_2026.jpeg' | relative_url }}" alt="Midwest Macroeconomics Meetings, Spring 2026" class="img-fluid sidebar-image">
     <p class="caption">Midwest Macroeconomics Meetings, Spring 2026</p>
