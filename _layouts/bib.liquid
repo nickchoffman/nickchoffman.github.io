@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-sm-12">
 
-    {# Title: linked to PDF if pdf field exists, otherwise plain #}
+    {% comment %} {# Title: linked to PDF if pdf field exists, otherwise plain #} {% endcomment %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
         {% assign pdf_url = entry.pdf %}
@@ -15,7 +15,7 @@
       <h4 class="title">{{ entry.title }}</h4>
     {% endif %}
 
-    {# Coauthors: only show if there's more than one author #}
+    {% comment %} {# Coauthors: only show if there's more than one author #} {% endcomment %}
     {% if entry.author_array.size > 1 %}
       <div class="coauthors">
         with
@@ -29,12 +29,12 @@
       </div>
     {% endif %}
 
-    {# Note (e.g., "Job Market Paper") #}
+    {% comment %} {# Note (e.g., "Job Market Paper") #} {% endcomment %}
     {% if entry.note %}
       <div class="note"><em>{{ entry.note }}</em></div>
     {% endif %}
 
-    {# Presentations list #}
+    {% comment %} {# Presentations list #} {% endcomment %}
     {% if entry.presentations %}
       <div class="presentations">
         <strong>Presentations:</strong>
@@ -47,7 +47,7 @@
       </div>
     {% endif %}
 
-    {# Collapsable abstract #}
+    {% comment %} {# Collapsable abstract #} {% endcomment %}
     {% if entry.abstract %}
       <div class="abstract-toggle">
         <button class="btn-abstract" onclick="
