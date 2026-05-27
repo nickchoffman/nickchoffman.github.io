@@ -13,6 +13,16 @@ nav_order: 3
       <a class="btn-link" href="{{ '/assets/pdf/hoffman_cv_2026.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
     </p>
 
+    <h2 class="category">Current Position</h2>
+
+    <div class="cv-entry">
+      <div class="cv-entry-header">
+        <span class="cv-degree">Macroeconomist</span>
+        <span class="cv-year">2025–Present</span>
+      </div>
+      <div class="cv-institution">Joint Committee on Taxation, United States Congress</div>
+    </div>
+
     <h2 class="category">Education</h2>
 
     <div class="cv-entry">
@@ -46,35 +56,6 @@ nav_order: 3
         <li>Summa Cum Laude</li>
         <li>Minor: Mathematics</li>
       </ul>
-    </div>
-
-    <h2 class="category">Positions</h2>
-
-    <div class="cv-entry">
-      <div class="cv-entry-header">
-        <span class="cv-degree">Macroeconomist</span>
-        <span class="cv-year">2025–Present</span>
-      </div>
-      <div class="cv-institution">Joint Committee on Taxation, United States Congress</div>
-    </div>
-
-    <div class="cv-entry">
-      <div class="cv-entry-header">
-        <span class="cv-degree">Research Assistant to Dr. Ariel Zetlin-Jones</span>
-        <span class="cv-year">2021–2022</span>
-      </div>
-      <div class="cv-institution">Carnegie Mellon University</div>
-      <ul class="cv-details">
-        <li>Project: Building Credit Histories</li>
-      </ul>
-    </div>
-
-    <div class="cv-entry">
-      <div class="cv-entry-header">
-        <span class="cv-degree">Research Analyst</span>
-        <span class="cv-year">2016–2019</span>
-      </div>
-      <div class="cv-institution">Federal Reserve Bank of Cleveland</div>
     </div>
 
   </div>
