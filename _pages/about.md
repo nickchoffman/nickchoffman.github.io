@@ -10,7 +10,7 @@ profile:
   image: profile_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
-    <p>555 nicholas [dot] hoffman [at] jct [dot] gov</p>
+    <p>nicholas [dot] hoffman [at] jct [dot] gov</p>
     <p>Washington, D.C.</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"

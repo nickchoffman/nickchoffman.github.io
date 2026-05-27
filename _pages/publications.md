@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Research
-subtitle: Research interests: Taxation, monetary policy, heterogeneous-agent macroeconomics, wealth and returns
+subtitle: "Research topics: Taxation, monetary policy, heterogeneous-agent macroeconomics, wealth and returns"
 description: 
 nav: true
 nav_order: 2
