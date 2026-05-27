@@ -62,14 +62,16 @@
     {% if entry.conferences %}
       <div class="presentations">
         {% comment %} <strong>Conference Presentations:</strong> {{ entry.conferences }} {% endcomment %}
-        <strong>Conference Presentations:</strong> <em>{{ entry.conferences }}</em>
+        {% comment %} <strong>Conference Presentations:</strong> <em>{{ entry.conferences }}</em> {% endcomment %}
+         <strong>Conference Presentations:</strong> {{ entry.conferences | replace: ';', ' – ' }}
       </div>
     {% endif %}
 
     {% if entry.seminars %}
       <div class="presentations">
         {% comment %} <strong>Seminar Presentations:</strong> {{ entry.seminars }} {% endcomment %}
-        <strong>Seminar Presentations:</strong> <em>{{ entry.seminars }}</em>
+        {% comment %} <strong>Seminar Presentations:</strong> <em>{{ entry.seminars }}</em> {% endcomment %}
+         <strong>Seminar Presentations:</strong> {{ entry.seminars | replace: ';', ' – ' }}
       </div>
     {% endif %}
 
