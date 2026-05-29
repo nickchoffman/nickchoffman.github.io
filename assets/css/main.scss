@@ -122,3 +122,29 @@
     text-decoration: none;
   }
 }
+
+.profile {
+  .contact-line {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+
+    i {
+      color: var(--global-theme-color);
+      width: 1.2rem;
+      margin-right: 0.3rem;
+      text-align: center;
+    }
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+      border-bottom: 1px dashed var(--global-divider-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+        border-bottom-color: var(--global-theme-color);
+      }
+    }
+  }
+}

@@ -9,9 +9,19 @@ profile:
   align: right
   image: profile_photo.jpg
   image_circular: false # crops the image to make it circular
-  more_info: 
-    <p>nicholas [dot] hoffman [at] jct [dot] gov</p>
-    <p>Washington, D.C.</p>
+  more_info: >
+    <p class="contact-line">
+      <i class="fa-solid fa-envelope"></i>
+      nicholas [dot] hoffman [at] jct [dot] gov
+    </p>
+    <p class="contact-line">
+      <i class="fa-solid fa-location-dot"></i>
+      Washington, D.C.
+    </p>
+    <p class="contact-line">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <a href="https://scholar.google.com/citations?user=NTsWq-wAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    </p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
