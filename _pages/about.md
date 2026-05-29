@@ -37,7 +37,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Economist at the [Joint Committee on Taxation](https://www.jct.gov) in Washington, D.C. My research focuses on macroeconomics, heterogeneous agent models, and fiscal and monetary policy. 
+I am an Economist at the [Joint Committee on Taxation](https://www.jct.gov) in Washington, D.C. My research focuses on macroeconomics, heterogeneous agent models, and fiscal and monetary policy. You can view my research [here](https://nickchoffman.github.io/publications/). 
 
 I earned my PhD in Economics from Carnegie Mellon University in 2025. My thesis, [Wealth, Returns, and Economic Policy](https://www.cmu.edu/sites/default/files/cmu-tepper-site-files/2025-06/2025-economics-hoffman-dissertation.pdf) was awarded the [Alexander Henderson Award for Excellence in Economic Theory](https://www.cmu.edu/tepper/programs/phd/student-awards). 
 
