@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p class="contact-line">
       <i class="fa-solid fa-envelope"></i>
-      nicholas [dot] hoffman [at] jct [dot] gov
+      nicholas.hoffman@jct.gov
     </p>
     <p class="contact-line">
       <i class="fa-solid fa-location-dot"></i>
