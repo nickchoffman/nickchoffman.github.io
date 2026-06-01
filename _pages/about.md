@@ -22,6 +22,10 @@ profile:
       <i class="fa-solid fa-graduation-cap"></i>
       <a href="https://scholar.google.com/citations?user=NTsWq-wAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
     </p>
+    <p class="contact-line">
+      <i class="ai ai-ideas-repec"></i>
+      <a href="https://ideas.repec.org/f/pho885.html" target="_blank" rel="noopener">IDEAS/RePEc</a>
+    </p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
